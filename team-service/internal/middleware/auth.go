@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"team-service/utils"
+	"team-service/internal/utils"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"

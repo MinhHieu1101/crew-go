@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"net/http"
-	"team-service/models"
-	"team-service/utils"
+	"team-service/internal/models"
+	"team-service/internal/utils"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"

@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 	"team-service/config"
-	"team-service/database"
-	"team-service/routes"
+	"team-service/internal/database"
+	"team-service/internal/routes"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"

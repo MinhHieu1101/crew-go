@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"team-service/controllers"
-	"team-service/middleware"
+	"team-service/internal/controllers"
+	"team-service/internal/middleware"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"

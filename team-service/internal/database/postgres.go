@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"team-service/config"
-	"team-service/models"
+	"team-service/internal/models"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
