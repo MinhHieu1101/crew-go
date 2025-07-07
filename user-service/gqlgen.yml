@@ -1,0 +1,17 @@
+schema:
+  - graphql/schema.graphqls
+exec:
+  filename: graphql/generated/generated.go
+  package: generated
+model:
+  filename: graphql/generated/models_gen.go
+  package: generated
+models:
+  User:
+    model:
+      "user-service/internal/user.User"
+resolver:
+  layout: single-file
+  dir: graphql
+  filename: graphql/resolver.go
+  package: graphql

@@ -1,11 +1,11 @@
 root = "."
 tmp_dir = "tmp"
-
 [build]
-  cmd = "go build -o tmp/main ."
-  bin = "tmp/main"
-  include_ext = ["go", "graphql"]
-  exclude_dir = ["tmp", "vendor"]
+  # compile into your tmp directory
+  cmd = "go build -o bin/user-service cmd/main.go"
+  # point Air at the binary it needs to execute
+  bin = "bin/user-service"
+  include_ext = ["go", "graphqls", "tmpl", "html", "env"]
 
 [log]
-  time = true
+  level = "debug"
